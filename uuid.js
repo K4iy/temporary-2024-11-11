@@ -1,7 +1,8 @@
-import {v3, v4} from 'uuid';
+import {v4} from 'uuid';
 //UUID version 4の文字列出力
+import {v7} from 'uuid';
 export const createUuid = () =>{
-    return v4();
+    return v7();
 };
 
 export const sample=() =>{
